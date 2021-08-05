@@ -2,61 +2,45 @@ package ua.intita.qa;
 
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.concurrent.Callable;
+
 
 public class Main {
     public static void main(String[] args) {
-
+/*
         Scanner scanner = new Scanner(System.in);
-        int[] intArray = new int[7];
+        int[] intArray = new int[5];
         for (int i = 0; i < intArray.length; i++) {
             intArray[i] = scanner.nextInt();
         }
-
+      */
         //System.out.println(Arrays.toString(intArray));
 
         //task 1
-        EvenOddNumbers evenOddNumbers = new EvenOddNumbers();
-        //evenOddNumbers.allEvenNumbers(intArray);
-        //evenOddNumbers.allOddNumbers(intArray);
+
+        //Algo.allEvenNumbers(intArray);
+        //Algo.allOddNumbers(intArray);
 
         //task 2
-        MaxMinNumbers maxMinNumbers = new MaxMinNumbers();
-        //maxMinNumbers.findMaxValue(intArray);
-        //maxMinNumbers.findMinValue(intArray);
+
+        //Algo.findMaxValue(intArray);
+        //Algo.findMinValue(intArray);
 
         //task 3
-        NumbersDividedOnThreeNine numbersDividedOnThreeNine = new NumbersDividedOnThreeNine();
-        //numbersDividedOnThreeNine.aliquot(intArray);
+        //Algo.aliquot(intArray);
 
         //task 4
-        FindThreeNotRepeatNumbersArray.allNotRepeatThreeDigit(intArray);
+       // Algo.allNotRepeatThreeDigit(intArray);
 
 
         // task 5
-        /*
-        boolean isPrime;
-        for(int i=0;i<intArray.length;i++){
-            isPrime=PrimeNumbers.isPrimeOrNot(intArray[i]);
-            if(isPrime==true){
-                System.out.println(intArray[i]);
-            }
-        }
-        */
+        //Algo.isPrime(intArray);
 
         //task 6
-        //SortArray.ascendingOrder(intArray);
-        //SortArray.descendingOrder(intArray);
+        //Algo.ascendingOrder(intArray);
+        //Algo.descendingOrder(intArray);
 
         //task 7
-        /*
-           for (int i=0;i<intArray.length;i++){
-               int num = Palindrome.isPalindrome(intArray[i]);
-               if(intArray[i] == num){
-                   System.out.println(intArray[i]);
-               }
-           }
-         */
+        //Algo.palindrome(intArray);
 
         //not pay attention
         /*
@@ -75,18 +59,18 @@ public class Main {
          */
 
         //task 8
-        //LongestShortestValues.shortestNumber(intArray);
-        //LongestShortestValues.longestNumber(intArray);
+        //Algo.shortestNumber(intArray);
+        //Algo.longestNumber(intArray);
 
         //task 9
-        //SortNumbersByLength.sortAscending(intArray);
-       // SortNumbersByLength.sortDescending(intArray);
+        //Algo.sortAscendingByLength(intArray);
+        //Algo.sortDescendingByLength(intArray);
 
 
         //task Student
-
-        Scanner in = new Scanner(System.in);
         /*
+        Scanner in = new Scanner(System.in);
+
         Student student1 = new Student("Alex","Patison","Batkovich",1990);
         Student student2 = new Student("Peter","Englert","Systemius",1988);
         Student student3 = new Student("Alina","Pavlenko","Ihorovna",1995);
@@ -100,15 +84,15 @@ public class Main {
             //data[i].setAddress(in.nextLine());
             //System.out.println("Enter telephone");
             //data[i].setTelephone(in.nextInt());
-            //System.out.println("Enter faculty");
-            //data[i].setFaculty(in.nextLine());
+            System.out.println("Enter faculty");
+            data[i].setFaculty(in.nextLine());
             //System.out.println("Enter course");
            // data[i].setCourse(in.nextLine());
-            System.out.println("Enter group");
-            data[i].setGroup(in.nextLine());
+            //System.out.println("Enter group");
+            //data[i].setGroup(in.nextLine());
         }
-         */
 
+        */
 
         //list of students one faculty
         //Student.listOfStudentsFaculty(data,"bio");
